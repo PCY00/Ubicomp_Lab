@@ -1,6 +1,6 @@
 # Ubicomp_Lab ( 2022.06. ~ present )
 
-<br><br>
+
 
 ## 참여한 프로젝트
 <div align="center">
