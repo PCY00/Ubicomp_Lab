@@ -1,8 +1,6 @@
 # Ubicomp_Lab ( 2022.06. ~ present )
 
-## 언어 선택
-
-[English](README_EN.md) | [한국어](README_KR.md)
+---
 
 ## 참여한 프로젝트
 <div align="center">
