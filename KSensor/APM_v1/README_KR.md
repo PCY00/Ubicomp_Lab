@@ -86,28 +86,28 @@ APM_v1/
       <td>
         <table>
           <tr>
-            <th>**Arduino Mega 2560 1**</th>
-            <th>**PM1, PM2, PM3**</th>
+            <th><strong>Arduino Mega 2560 1</strong></th>
+            <th><strong>PM1, PM2, PM3</strong></th>
           </tr>
           <tr>
             <td>5V</td>
-            <td>VCC</td>
+            <td><strong>VCC</strong></td>
           </tr>
           <tr>
             <td>GND</td>
-            <td>GND</td>
+            <td><strong>GND</strong></td>
           </tr>
           <tr>
             <td>D19</td>
-            <td>PM1_Tx</td>
+            <td><strong>PM1_Tx</strong></td>
           </tr>
           <tr>
             <td>D17</td>
-            <td>PM2_Tx</td>
+            <td><strong>PM2_Tx</strong></td>
           </tr>
           <tr>
             <td>D15</td>
-            <td>PM3_Dx</td>
+            <td><strong>PM3_Dx</strong></td>
           </tr>
           <tr>
             <td></td>
@@ -115,15 +115,15 @@ APM_v1/
           </tr>
           <tr>
             <td>5V</td>
-            <td>VCC</td>
+            <td><strong>VCC</strong></td>
           </tr>
           <tr>
             <td>GND</td>
-            <td>GND</td>
+            <td><strong>GND</strong></td>
           </tr>
           <tr>
             <td>D6</td>
-            <td>OUT</td>
+            <td><strong>OUT</strong></td>
           </tr>
           <tr>
             <td></td>
@@ -131,59 +131,59 @@ APM_v1/
           </tr>
           <tr>
             <td>5V</td>
-            <td>VCC</td>
+            <td><strong>VCC</strong></td>
           </tr>
           <tr>
             <td>GND</td>
-            <td>GND</td>
+            <td><strong>GND</strong></td>
           </tr>
           <tr>
             <td>D20</td>
-            <td>SDA</td>
+            <td><strong>SDA</strong></td>
           </tr>
           <tr>
             <td>D21</td>
-            <td>SCL</td>
+            <td><strong>SCL</strong></td>
           </tr>
         </table>
       </td>
       <td>
         <table>
           <tr>
-            <th>**Arduino Mega 2560 2**</th>
-            <th>**CO, NO2, SO2**</th>
+            <th><strong>Arduino Mega 2560 2</strong></th>
+            <th><strong>CO, NO2, SO2</strong></th>
           </tr>
           <tr>
             <td>5V</td>
-            <td>VCC</td>
+            <td><strong>VCC</strong></td>
           </tr>
           <tr>
             <td>GND</td>
-            <td>GND</td>
+            <td><strong>GND</strong></td>
           </tr>
           <tr>
             <td>D19</td>
-            <td>CO_Tx</td>
+            <td><strong>CO_Tx</strong></td>
           </tr>
           <tr>
             <td>D18</td>
-            <td>CO_Rx</td>
+            <td><strong>CO_Rx</strong></td>
           </tr>
           <tr>
             <td>D17</td>
-            <td>NO2_Tx</td>
+            <td><strong>NO2_Tx</strong></td>
           </tr>
           <tr>
             <td>D16</td>
-            <td>NO2_Rx</td>
+            <td><strong>NO2_Rx</strong></td>
           </tr>
           <tr>
             <td>D15</td>
-            <td>SO2_Tx</td>
+            <td><strong>SO2_Tx</strong></td>
           </tr>
           <tr>
             <td>D14</td>
-            <td>SO2_Rx</td>
+            <td><strong>SO2_Rx</strong></td>
           </tr>
           <tr>
             <td></td>
@@ -191,15 +191,15 @@ APM_v1/
           </tr>
           <tr>
             <td>5V</td>
-            <td>VCC</td>
+            <td><strong>VCC</strong></td>
           </tr>
           <tr>
             <td>GND</td>
-            <td>GND</td>
+            <td><strong>GND</strong></td>
           </tr>
           <tr>
             <td>A0</td>
-            <td>OUT</td>
+            <td><strong>OUT</strong></td>
           </tr>
           <tr>
             <td></td>
@@ -207,21 +207,22 @@ APM_v1/
           </tr>
           <tr>
             <td>Power Supply 24V</td>
-            <td>VCC</td>
+            <td><strong>VCC</strong></td>
           </tr>
           <tr>
             <td>Power Supply GND</td>
-            <td>GND</td>
+            <td><strong>GND</strong></td>
           </tr>
           <tr>
             <td>A1</td>
-            <td>OUT</td>
+            <td><strong>OUT</strong></td>
           </tr>
         </table>
       </td>
     </tr>
   </table>
 </div>
+
 
 <br><br>
 
