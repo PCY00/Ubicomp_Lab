@@ -24,6 +24,11 @@
 
 <br><br>
 
+## 모빌리티 플랫폼 구동 영상
+- [모빌리티 플랫폼 구동](https://youtube.com/shorts/J9ntZ2a7qIg?feature=share)
+
+<br><br>
+
 ## 배선
 ![1](https://user-images.githubusercontent.com/57317636/209282573-1e2cab96-3a95-442c-893d-c2920c166bc0.png)
 
