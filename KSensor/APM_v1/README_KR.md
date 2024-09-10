@@ -58,14 +58,14 @@ APM_v1/
 
 ### 배선도
 
-| **Arduino Mega 2560 1**  | **PM1, PM2, PM3 **      |
+| **Arduino Mega 2560 1**  | **PM1, PM2, PM3**      |
 |-----------------------|---------------------|
 | 5V                    | VCC                 |
 | GND                   | GND                 |
 | D19                   | PM1_Tx              |
 | D17                   | PM2_Tx              |
 | D15                   | PM3_Dx              |
-|                       | **DHT22 **              |
+|                       | **DHT22**              |
 | 5V                    | VCC                 |
 | GND                   | GND                 |
 | D6                    | OUT                 |
@@ -75,7 +75,7 @@ APM_v1/
 | D20                   | SDA                 |
 | D21                   | SCL                 |
 
-| **Arduino Mega 2560 2**  | **CO, NO2, SO2 **      |
+| **Arduino Mega 2560 2**  | **CO, NO2, SO2**      |
 |-----------------------|---------------------|
 | 5V                    | VCC                 |
 | GND                   | GND                 |
@@ -85,11 +85,11 @@ APM_v1/
 | D16                   | NO2_Rx              |
 | D15                   | SO2_Tx              |
 | D14                   | SO2_Rx              |
-|                       | **Wind Direction **     |
+|                       | **Wind Direction**     |
 | 5V                    | VCC                 |
 | GND                   | GND                 |
 | A0                    | OUT                 |
-|                       | **Wind Speed **         |
+|                       | **Wind Speed**         |
 | Power Supply 24V      | VCC                 |
 | Power Supply GND      | GND                 |
 | A1                    | OUT                 |
