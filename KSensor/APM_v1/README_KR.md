@@ -18,32 +18,32 @@
 ### 디렉토리 형식
 
 ```
-APM_v1
-  ├── Document
-  │   ├── APM_1_v1.0.docx
-  │   └── APM_1_v1.0.pdf
-  │
-  ├── src
-  │   ├── DAQ
-  │       └── DAQ.py
-  │
-  │   ├── Mobius_server_mqtt
-  │       └── HowToUsing_nCube.zip
-  │       └── nCube-Thyme-Nodejs.zip
-  │
-  │   ├── Motor_control
-  │       └── Motor_auto_control
-  │           └── auto_control.py
-  │       └── Motor_control
-  │           └── Motor_NPM_RX.ino
-  │           └── Motor_NPM_TX.ino
-  │       └── Motor_library
-  │           └── m_3_1.cpp
-  │           └── m_3_1.h
-  │       └── README.md
-  │
-  │   ├── Sensor
-  │       └── CNSWW_new.ino
-  │       └── DDDOT.ino
+APM_v1/
+├── Document/
+│   ├── APM_1_v1.0.docx
+│   └── APM_1_v1.0.pdf
+│
+├── src/
+│   ├── DAQ/
+│   │   └── DAQ.py
+│   │
+│   ├── Mobius_server_mqtt/
+│   │   ├── HowToUsing_nCube.zip
+│   │   └── nCube-Thyme-Nodejs.zip
+│   │
+│   ├── Motor_control/
+│   │   ├── Motor_auto_control/
+│   │   │   └── auto_control.py
+│   │   ├── Motor_control/
+│   │   │   ├── Motor_NPM_RX.ino
+│   │   │   └── Motor_NPM_TX.ino
+│   │   ├── Motor_library/
+│   │   │   ├── m_3_1.cpp
+│   │   │   └── m_3_1.h
+│   │   └── README.md
+│   │
+│   ├── Sensor/
+│       ├── CNSWW_new.ino
+│       └── DDDOT.ino
 
 ```
