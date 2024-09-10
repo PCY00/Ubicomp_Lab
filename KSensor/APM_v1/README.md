@@ -78,6 +78,21 @@ APM_v1/
 
 <br><br>
 
+### Used Hardware Equipment
+
+| Equipment Name        | Specifications                                                                                                                                                                                                                                                                              | Quantity | Notes                           |
+|:---------------------:|:------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------:|:--------:|:-------------------------------:|
+| Jetson Nano B 01     | Quad-core ARM® Cortex-A57@ 1.43 GHz                                                                                                                                                                                                                                                           | 1        |                                |
+| Arduino Mega 2560    | ATmega2560                                                                                                                                                                                                                                                                                    | 3        | 1 for motor control, 2 for data transmission |
+| Arduino Uno          | ATmega328P                                                                                                                                                                                                                                                                                    | 1        |                                |
+| PMS7003              | Optical scattering method                                                                                                                                                                                                                                                                     | 4        | Particulate matter sensor       |
+| Environmental Sensors | CO, NO2, SO2 each 1 (AllSensing AGSM series) <br> Ozone 1 (sen0321) - I2C communication <br> WindSpeed 1 (sen0170) - Analog communication <br> WindDirection 1 (WS5029) - Analog communication <br> Temperature and Humidity (DHT22) - Digital |          | UART, I2C, Digital, Analog     |
+| Actuator Sensors      | Vertical initialization limit switches 3 <br> Horizontal initialization switch 1 <br> Cooler control toggle switch 1 <br> On/Off switches 2 <br> Stepper motors NEMA17 6 (Torque: 4.0 3, 6.5 3)                                                                                             |          |                                |
+| Others                | Profile 30 x 30 20 pieces <br> Profile 20 x 20 4 pieces <br> Bearings 6 <br> Small bearing 1 (for horizontal initialization support) <br> Round rod 1 <br> Outsourced acrylic plates 6 <br> Power supplies 2 (LRS-350-24) <br> Remaining materials made with 3D printer (PLA+ material) |          |                                |
+
+
+<br><br>
+
 #### Sensor Wiring Diagram
 
 <div align="center">
