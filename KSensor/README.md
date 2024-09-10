@@ -17,7 +17,7 @@
 <br><br>
 
 ## APM v2
--동작 방식
+- 동작 방식
 
 ![12](https://github.com/user-attachments/assets/e6e607d1-1e9d-4709-b397-4db3f631d288)
 
