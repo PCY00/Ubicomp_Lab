@@ -150,6 +150,10 @@ APM_v2/
             <td><strong>O₃_SCL</strong></td>
           </tr>
           <tr>
+            <td> </td>
+            <td><strong>WindSpeed</strong></td>
+          </tr>
+          <tr>
             <td>Power Supply 12V</td>
             <td><strong>VCC</strong></td>
           </tr>
@@ -159,19 +163,23 @@ APM_v2/
           </tr>
           <tr>
             <td>A1</td>
-            <td><strong>WindSpeed OUT</strong></td>
+            <td><strong>OUT</strong></td>
+          </tr>
+          <tr>
+            <td> </td>
+            <td><strong>WindDirection</strong></td>
           </tr>
           <tr>
             <td>5V</td>
-            <td><strong>WindDirection VCC</strong></td>
+            <td><strong>VCC</strong></td>
           </tr>
           <tr>
             <td>GND</td>
-            <td><strong>WindDirection GND</strong></td>
+            <td><strong>GND</strong></td>
           </tr>
           <tr>
             <td>A0</td>
-            <td><strong>WindDirection OUT</strong></td>
+            <td><strong>OUT</strong></td>
           </tr>
         </table>
       </td>
