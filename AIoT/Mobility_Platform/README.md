@@ -18,7 +18,7 @@
 
   | Modeling | Actual |
   |:---:|:---:|
-  | <img src="https://github.com/user-attachments/assets/20794281-a5e7-44e3-a253-2690546f93b8" width="470px" height="350px" alt="Modeling"> | <img src="https://github.com/user-attachments/assets/d027d3e9-eccb-451f-8058-05fac14c0bb8" width="300px" height="300px" alt="Installation"> |
+  | <img src="https://github.com/user-attachments/assets/20794281-a5e7-44e3-a253-2690546f93b8" width="470px" height="350px" alt="Modeling"> | <img src="https://github.com/user-attachments/assets/d027d3e9-eccb-451f-8058-05fac14c0bb8" width="300px" height="350px" alt="Installation"> |
 
 </div>
 
