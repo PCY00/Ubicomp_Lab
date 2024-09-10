@@ -267,14 +267,14 @@ APM_v2/
 
 
 
+
 <br><br>
 
 ## Server (OneM2M)
 
 ### Mobius 플랫폼
+- URL: http://114.71.220.59:2021/Mobius/Ksensor_ubicomp_2
 
-- **현재 APM_v1 철거로 인해 서버 접속 불가능**
+![server](https://github.com/user-attachments/assets/3d25239d-c8fb-4218-8019-f742800bbce3)
 
-![server](https://github.com/user-attachments/assets/9e5f2f4d-9210-41cc-a25c-f3306b2330c8)
-
-- [Mobius 플랫폼 접속 링크](http://114.71.220.59:2021/Mobius/Ksensor_ubicomp)
+- [Mobius 플랫폼 접속 링크](http://114.71.220.59:7575/#!/monitor)
