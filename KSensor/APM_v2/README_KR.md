@@ -27,9 +27,11 @@
 
 <br><br>
 
-### APM_v1 Mqtt 구동 영상
+### APM_v2 Mqtt(모터) 구동 영상
 
-[APM_v1 Mqtt 구동 영상 보기](https://youtube.com/shorts/-vXDwXWd0H0?feature=share)
+- 모터는 필요없다고 생각되어 현재 탈거하였음
+
+[APM_v2 Mqtt 구동 영상 보기](https://youtu.be/hN8SpTdIn4Q?feature=shared)
 
 <br><br>
 
