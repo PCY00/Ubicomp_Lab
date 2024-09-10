@@ -68,6 +68,8 @@ APM_v1/
 
 <br>
 
+#### 센서 배선도
+
 <div align="center">
   <table>
     <tr>
