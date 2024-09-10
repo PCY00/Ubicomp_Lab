@@ -89,7 +89,7 @@ APM_v2/
 
   | 센서 배선 | 
   |:---:|
-  | <img src="https://github.com/user-attachments/assets/c789b326-338c-4222-890a-6d37527918c3" width="420px" height="420px" alt="센서 배선도"> |
+  | <img src="https://github.com/user-attachments/assets/c789b326-338c-4222-890a-6d37527918c3" width="600px" height="550px" alt="센서 배선도"> |
 </div>
 
 <br>
