@@ -103,7 +103,7 @@ APM_v2/
       <td>
         <table border="1">
           <tr>
-            <th><strong>Arduino Mega 2560 (Environmental Sensor)</strong></th>
+            <th><strong>Arduino Mega 2560 <br> (Environmental Sensor)</strong></th>
             <th><strong>Temperature, CO, NO2, SO2, O₃</strong></th>
           </tr>
           <tr>
