@@ -100,34 +100,10 @@ APM_v2/
   <table>
     <tr>
       <td>
-        <table>
+        <table border="1">
           <tr>
-            <th><strong>Arduino Mega 2560 1</strong></th>
-            <th><strong>PM1, PM2, PM3</strong></th>
-          </tr>
-          <tr>
-            <td>5V</td>
-            <td><strong>VCC</strong></td>
-          </tr>
-          <tr>
-            <td>GND</td>
-            <td><strong>GND</strong></td>
-          </tr>
-          <tr>
-            <td>D19</td>
-            <td><strong>PM1_Tx</strong></td>
-          </tr>
-          <tr>
-            <td>D17</td>
-            <td><strong>PM2_Tx</strong></td>
-          </tr>
-          <tr>
-            <td>D15</td>
-            <td><strong>PM3_Dx</strong></td>
-          </tr>
-          <tr>
-            <td></td>
-            <td><strong>DHT22</strong></td>
+            <th><strong>Arduino Mega 2560 (환경센서)</strong></th>
+            <th><strong>온습도, CO, NO2, SO2, O₃</strong></th>
           </tr>
           <tr>
             <td>5V</td>
@@ -139,43 +115,7 @@ APM_v2/
           </tr>
           <tr>
             <td>D6</td>
-            <td><strong>OUT</strong></td>
-          </tr>
-          <tr>
-            <td></td>
-            <td><strong>Ozone</strong></td>
-          </tr>
-          <tr>
-            <td>5V</td>
-            <td><strong>VCC</strong></td>
-          </tr>
-          <tr>
-            <td>GND</td>
-            <td><strong>GND</strong></td>
-          </tr>
-          <tr>
-            <td>D20</td>
-            <td><strong>SDA</strong></td>
-          </tr>
-          <tr>
-            <td>D21</td>
-            <td><strong>SCL</strong></td>
-          </tr>
-        </table>
-      </td>
-      <td>
-        <table>
-          <tr>
-            <th><strong>Arduino Mega 2560 2</strong></th>
-            <th><strong>CO, NO2, SO2</strong></th>
-          </tr>
-          <tr>
-            <td>5V</td>
-            <td><strong>VCC</strong></td>
-          </tr>
-          <tr>
-            <td>GND</td>
-            <td><strong>GND</strong></td>
+            <td><strong>온습도_OUT</strong></td>
           </tr>
           <tr>
             <td>D19</td>
@@ -202,8 +142,44 @@ APM_v2/
             <td><strong>SO2_Rx</strong></td>
           </tr>
           <tr>
-            <td></td>
-            <td><strong>Wind Direction</strong></td>
+            <td>D20</td>
+            <td><strong>O₃_SDA</strong></td>
+          </tr>
+          <tr>
+            <td>D21</td>
+            <td><strong>O₃_SCL</strong></td>
+          </tr>
+          <tr>
+            <td>Power Supply 12V</td>
+            <td><strong>VCC</strong></td>
+          </tr>
+          <tr>
+            <td>Power Supply GND & Arduino Mega 2560 GND</td>
+            <td><strong>GND</strong></td>
+          </tr>
+          <tr>
+            <td>A1</td>
+            <td><strong>WindSpeed OUT</strong></td>
+          </tr>
+          <tr>
+            <td>5V</td>
+            <td><strong>WindDirection VCC</strong></td>
+          </tr>
+          <tr>
+            <td>GND</td>
+            <td><strong>WindDirection GND</strong></td>
+          </tr>
+          <tr>
+            <td>A0</td>
+            <td><strong>WindDirection OUT</strong></td>
+          </tr>
+        </table>
+      </td>
+      <td>
+        <table border="1">
+          <tr>
+            <th><strong>Arduino Mega 2560 (3개 동일)</strong></th>
+            <th><strong>PM1, PM2, PM3</strong></th>
           </tr>
           <tr>
             <td>5V</td>
@@ -214,24 +190,48 @@ APM_v2/
             <td><strong>GND</strong></td>
           </tr>
           <tr>
-            <td>A0</td>
-            <td><strong>OUT</strong></td>
+            <td>D19</td>
+            <td><strong>PM1_Tx</strong></td>
           </tr>
           <tr>
-            <td></td>
-            <td><strong>Wind Speed</strong></td>
+            <td>D17</td>
+            <td><strong>PM2_Tx</strong></td>
           </tr>
           <tr>
-            <td>Power Supply 24V</td>
-            <td><strong>VCC</strong></td>
+            <td>D15</td>
+            <td><strong>PM3_Tx</strong></td>
           </tr>
           <tr>
-            <td>Power Supply GND</td>
+            <td>Power Supply 5V</td>
+            <td><strong>Fan1, Fan2, Fan3 VCC</strong></td>
+          </tr>
+          <tr>
+            <td>Power Supply GND & Arduino Mega 2560 GND</td>
             <td><strong>GND</strong></td>
           </tr>
           <tr>
-            <td>A1</td>
-            <td><strong>OUT</strong></td>
+            <td>D8</td>
+            <td><strong>Fan1 PWM</strong></td>
+          </tr>
+          <tr>
+            <td>D9</td>
+            <td><strong>Fan2 PWM</strong></td>
+          </tr>
+          <tr>
+            <td>D10</td>
+            <td><strong>Fan3 PWM</strong></td>
+          </tr>
+          <tr>
+            <td>D2</td>
+            <td><strong>Fan1 Tach</strong></td>
+          </tr>
+          <tr>
+            <td>D3</td>
+            <td><strong>Fan2 Tach</strong></td>
+          </tr>
+          <tr>
+            <td>D21</td>
+            <td><strong>Fan3 Tach</strong></td>
           </tr>
         </table>
       </td>
