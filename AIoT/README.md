@@ -10,4 +10,11 @@
 
 ## mobility Platform
 
-![그림2](https://github.com/user-attachments/assets/ac16640a-8f46-4dd8-9f34-0a6a794a8dee) ![KakaoTalk_20240911_010731360](https://github.com/user-attachments/assets/abfb910b-63e4-4a20-9dcd-7fe11063a390)
+<div align="center">
+
+  | v1 | v2 |
+  |:---:|:---:|
+  | <img src="https://github.com/user-attachments/assets/ac16640a-8f46-4dd8-9f34-0a6a794a8dee" alt="Modeling"> | <img src="https://github.com/user-attachments/assets/abfb910b-63e4-4a20-9dcd-7fe11063a390" width="470px" height="300px" alt="Installation"> |
+
+</div>
+
