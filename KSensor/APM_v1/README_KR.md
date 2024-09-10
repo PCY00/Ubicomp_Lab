@@ -242,6 +242,18 @@ APM_v1/
 | `pm3_x`                  | PM3 센서의 X축 위치 (1: 상단, 2: 중간, 3: 하단) |
 
 
+<br><br>
+
+## Server (OneM2M)
+
+### Mobius 플랫폼
+
+- ( 현재 APM_v1 철거로 인해 서버 접속 불가능 )
+
+![server](https://github.com/user-attachments/assets/9e5f2f4d-9210-41cc-a25c-f3306b2330c8)
+
+< http://114.71.220.59:2021/Mobius/Ksensor_ubicomp >
+
 
 
 
