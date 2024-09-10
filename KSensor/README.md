@@ -1,5 +1,5 @@
 # Ksensor Project 
-### (Embedded SW Part) 
+- (Embedded SW Part) 
 
 ## 활동 일시
 - 2022.08. ~ 2023.12. APM v1 Design & Install
