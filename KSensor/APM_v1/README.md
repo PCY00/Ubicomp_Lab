@@ -9,5 +9,5 @@
   
   | 모델링 | 설치 |
   |:---:|:---:|
-  | <img src="https://github.com/user-attachments/assets/16247e7f-1541-47be-a514-2af5a8bb7449" width="300px" height="300px"> | <img src="https://github.com/user-attachments/assets/54e6a5d6-ec62-4971-b192-cef102818fc4" width="300px" height="300px"> |
+  | <img src="https://github.com/user-attachments/assets/16247e7f-1541-47be-a514-2af5a8bb7449" width="350px" height="300px"> | <img src="https://github.com/user-attachments/assets/54e6a5d6-ec62-4971-b192-cef102818fc4" width="350px" height="300px"> |
 </div>
