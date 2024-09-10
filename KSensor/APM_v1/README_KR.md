@@ -70,6 +70,7 @@ APM_v1/
 ### 배선도
 
 <div align="center">
+  
   | 센서 배선 | 모터 배선 |
   |:---:|:---:|
   | <img src="https://github.com/user-attachments/assets/b9ae9f78-adc2-4b7d-a810-ac639ee7c0d8" width="420px" height="300px" alt="센서 배선도"> | <img src="https://github.com/user-attachments/assets/166d0f0b-ee65-4d67-88f7-16cb4cec47f2" width="420px" height="300px" alt="모터 배선도"> |
