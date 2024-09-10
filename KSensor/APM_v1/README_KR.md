@@ -58,41 +58,43 @@ APM_v1/
 
 ### 배선도
 
-| Device                | Pin               | Arduino Mega 2560 1 | Pin  | Arduino Mega 2560 2 | Pin |
-|-----------------------|-------------------|---------------------|------|---------------------|------|
-| **PM1**                | 5V                | VCC                 |      |                     |      |
-|                       | GND               | GND                 |      |                     |      |
-|                       | D19               | PM1_Tx              |      |                     |      |
-| **PM2**                | 5V                | VCC                 |      |                     |      |
-|                       | GND               | GND                 |      |                     |      |
-|                       | D17               | PM2_Tx              |      |                     |      |
-| **PM3**                | 5V                | VCC                 |      |                     |      |
-|                       | GND               | GND                 |      |                     |      |
-|                       | D15               | PM3_Dx              |      |                     |      |
-| **DHT22**              | 5V                | VCC                 |      |                     |      |
-|                       | GND               | GND                 |      |                     |      |
-|                       | D6                | OUT                 |      |                     |      |
-| **SEN0321 (Ozone)**    | 5V                | VCC                 |      |                     |      |
-|                       | GND               | GND                 |      |                     |      |
-|                       | D20               | SDA                 |      |                     |      |
-|                       | D21               | SCL                 |      |                     |      |
-| **CO**                 | 5V                |                     |      | VCC                 |      |
-|                       | GND               |                     |      | GND                 |      |
-|                       | D19               |                     |      | CO_Tx               |      |
-|                       | D18               |                     |      | CO_Rx               |      |
-| **NO2**                | 5V                |                     |      | VCC                 |      |
-|                       | GND               |                     |      | GND                 |      |
-|                       | D17               |                     |      | NO2_Tx              |      |
-|                       | D16               |                     |      | NO2_Rx              |      |
-| **SO2**                | 5V                |                     |      | VCC                 |      |
-|                       | GND               |                     |      | GND                 |      |
-|                       | D15               |                     |      | SO2_Tx              |      |
-|                       | D14               |                     |      | SO2_Rx              |      |
-| **Wind Direction**     | 5V                |                     |      | VCC                 |      |
-|                       | GND               |                     |      | GND                 |      |
-|                       | A0                |                     |      | OUT                 |      |
-| **Wind Speed**         | 파워서플라이 (24V) |                     |      | VCC                 |      |
-|                       | 파워서플라이 (GND) |                     |      | GND                 |      |
-|                       | A1                |                     |      | OUT                 |      |
+| Arduino Mega 2560 1  | PM1, PM2, PM3       |
+|-----------------------|---------------------|
+| 5V                    | VCC                 |
+| GND                   | GND                 |
+| D19                   | PM1_Tx              |
+| D17                   | PM2_Tx              |
+| D15                   | PM3_Dx              |
+|                       | DHT22               |
+| 5V                    | VCC                 |
+| GND                   | GND                 |
+| D6                    | OUT                 |
+|                       | SEN0321 (Ozone)     |
+| 5V                    | VCC                 |
+| GND                   | GND                 |
+| D20                   | SDA                 |
+| D21                   | SCL                 |
+
+| Arduino Mega 2560 2  | CO, NO2, SO2       |
+|-----------------------|---------------------|
+| 5V                    | VCC                 |
+| GND                   | GND                 |
+| D19                   | CO_Tx               |
+| D18                   | CO_Rx               |
+| D17                   | NO2_Tx              |
+| D16                   | NO2_Rx              |
+| D15                   | SO2_Tx              |
+| D14                   | SO2_Rx              |
+|                       | Wind Direction      |
+| 5V                    | VCC                 |
+| GND                   | GND                 |
+| A0                    | OUT                 |
+|                       | Wind Speed          |
+| Power Supply 24V      | VCC                 |
+| Power Supply GND      | GND                 |
+| A1                    | OUT                 |
+
+
+
 
 
