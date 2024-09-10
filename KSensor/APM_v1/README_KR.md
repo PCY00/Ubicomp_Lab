@@ -69,62 +69,144 @@ APM_v1/
 <br>
 
 
-| **Arduino Mega 2560 1**  | **PM1, PM2, PM3**      |
-|-----------------------|---------------------|
-| 5V                    | VCC                 |
-| GND                   | GND                 |
-| D19                   | PM1_Tx              |
-| D17                   | PM2_Tx              |
-| D15                   | PM3_Dx              |
-|                       | **DHT22**              |
-| 5V                    | VCC                 |
-| GND                   | GND                 |
-| D6                    | OUT                 |
-|                       | **Ozone**     |
-| 5V                    | VCC                 |
-| GND                   | GND                 |
-| D20                   | SDA                 |
-| D21                   | SCL                 |
-
-| **Arduino Mega 2560 2**  | **CO, NO2, SO2**      |
-|-----------------------|---------------------|
-| 5V                    | VCC                 |
-| GND                   | GND                 |
-| D19                   | CO_Tx               |
-| D18                   | CO_Rx               |
-| D17                   | NO2_Tx              |
-| D16                   | NO2_Rx              |
-| D15                   | SO2_Tx              |
-| D14                   | SO2_Rx              |
-|                       | **Wind Direction**     |
-| 5V                    | VCC                 |
-| GND                   | GND                 |
-| A0                    | OUT                 |
-|                       | **Wind Speed**         |
-| Power Supply 24V      | VCC                 |
-| Power Supply GND      | GND                 |
-| A1                    | OUT                 |
-
 <table>
   <tr>
-    <th>Outer Table Header 1</th>
-    <th>Outer Table Header 2</th>
-  </tr>
-  <tr>
     <td>
-      Outer Table Cell 1
       <table>
         <tr>
-          <th>Inner Table Header 1</th>
-          <th>Inner Table Header 2</th>
+          <th>**Arduino Mega 2560 1**</th>
+          <th>**PM1, PM2, PM3**</th>
         </tr>
         <tr>
-          <td>Inner Table Cell 1</td>
-          <td>Inner Table Cell 2</td>
+          <td>5V</td>
+          <td>VCC</td>
+        </tr>
+        <tr>
+          <td>GND</td>
+          <td>GND</td>
+        </tr>
+        <tr>
+          <td>D19</td>
+          <td>PM1_Tx</td>
+        </tr>
+        <tr>
+          <td>D17</td>
+          <td>PM2_Tx</td>
+        </tr>
+        <tr>
+          <td>D15</td>
+          <td>PM3_Dx</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td><strong>DHT22</strong></td>
+        </tr>
+        <tr>
+          <td>5V</td>
+          <td>VCC</td>
+        </tr>
+        <tr>
+          <td>GND</td>
+          <td>GND</td>
+        </tr>
+        <tr>
+          <td>D6</td>
+          <td>OUT</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td><strong>Ozone</strong></td>
+        </tr>
+        <tr>
+          <td>5V</td>
+          <td>VCC</td>
+        </tr>
+        <tr>
+          <td>GND</td>
+          <td>GND</td>
+        </tr>
+        <tr>
+          <td>D20</td>
+          <td>SDA</td>
+        </tr>
+        <tr>
+          <td>D21</td>
+          <td>SCL</td>
         </tr>
       </table>
     </td>
-    <td>Outer Table Cell 2</td>
+    <td>
+      <table>
+        <tr>
+          <th>**Arduino Mega 2560 2**</th>
+          <th>**CO, NO2, SO2**</th>
+        </tr>
+        <tr>
+          <td>5V</td>
+          <td>VCC</td>
+        </tr>
+        <tr>
+          <td>GND</td>
+          <td>GND</td>
+        </tr>
+        <tr>
+          <td>D19</td>
+          <td>CO_Tx</td>
+        </tr>
+        <tr>
+          <td>D18</td>
+          <td>CO_Rx</td>
+        </tr>
+        <tr>
+          <td>D17</td>
+          <td>NO2_Tx</td>
+        </tr>
+        <tr>
+          <td>D16</td>
+          <td>NO2_Rx</td>
+        </tr>
+        <tr>
+          <td>D15</td>
+          <td>SO2_Tx</td>
+        </tr>
+        <tr>
+          <td>D14</td>
+          <td>SO2_Rx</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td><strong>Wind Direction</strong></td>
+        </tr>
+        <tr>
+          <td>5V</td>
+          <td>VCC</td>
+        </tr>
+        <tr>
+          <td>GND</td>
+          <td>GND</td>
+        </tr>
+        <tr>
+          <td>A0</td>
+          <td>OUT</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td><strong>Wind Speed</strong></td>
+        </tr>
+        <tr>
+          <td>Power Supply 24V</td>
+          <td>VCC</td>
+        </tr>
+        <tr>
+          <td>Power Supply GND</td>
+          <td>GND</td>
+        </tr>
+        <tr>
+          <td>A1</td>
+          <td>OUT</td>
+        </tr>
+      </table>
+    </td>
   </tr>
 </table>
 
