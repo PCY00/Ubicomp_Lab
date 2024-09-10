@@ -67,6 +67,20 @@ APM_v1/
 
 <br><br>
 
+### 사용된 하드웨어 장비
+
+| 장비명                | 사양                                                                                                                                                                                                                                                                   | 수량 | 비고                         |
+|:------------------:|:--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------:|:---:|:--------------------------:|
+| Jetson Nano B 01   | Quad-core ARM® Cortex-A57@ 1.43 GHz                                                                                                                                                                                                                                  | 1  |                            |
+| Arduino Mega 2560  | ATmega2560                                                                                                                                                                                                                                                           | 3  | 모터 제어용 1, 데이터 전송용 2        |
+| Arduino Uno        | ATmega328P                                                                                                                                                                                                                                                           | 1  |                            |
+| PMS7003            | 광산란 방식                                                                                                                                                                                                                                                               | 4  | 미세먼지 센서                    |
+| 환경 센서              | <br>- CO, NO2, SO2 each 1 (AllSensing AGSM series)<br><br>- Ozone 1 (sen0321) - I2C communication<br><br>- WindSpeed 1 (sen0170) - Analog communication<br><br>- WindDirection 1 (WS5029) - Analog communication<br><br>- Temperature and Humidity (DHT22) - Digital |    | UART, I2C, Digital, Analog |
+| 구동부 센서             | 리미트, 토글, 온오프 스위치, 스테핑 NEMA17                                                                                                                                                                                                                                         |    |                            |
+| 기타                 |                                                                                                                                                                                                                                                                      |    |                            |
+
+
+
 ### 배선도
 
 <div align="center">
