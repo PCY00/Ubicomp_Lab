@@ -38,37 +38,33 @@
 ### 디렉토리 형식
 
 ```
-APM_v1/
-├── Document/
-│   ├── APM_1_v1.0.docx
-│   └── APM_1_v1.0.pdf
-│
+APM_v2/
 ├── src/
 │   ├── DAQ/
 │   │   └── DAQ.py
 │   │
 │   ├── Mobius_server_mqtt/
-│   │   ├── HowToUsing_nCube.zip
 │   │   └── nCube-Thyme-Nodejs.zip
 │   │
-│   ├── Motor_control/
-│   │   ├── Motor_auto_control/
-│   │   │   └── auto_control.py
-│   │   ├── Motor_control/
-│   │   │   ├── Motor_NPM_RX.ino
-│   │   │   └── Motor_NPM_TX.ino
-│   │   ├── Motor_library/
-│   │   │   ├── m_3_1.cpp
-│   │   │   └── m_3_1.h
-│   │   └── README.md
-│   │
 │   ├── Sensor/
-│       ├── CNSWW_new.ino
-│       └── DDDOT.ino
+│   │   ├── Environmental_Sensor/
+│   │   │   ├── DFRobot_OzoneSensor.cpp
+│   │   │   ├── DFRobot_OzoneSensor.h
+│   │   │   └── Environmental_Sensor.ino
+│   │   ├── Module_Floor_1/
+│   │   │   └── Module_Floor_1.ino
+│   │   ├── Module_Floor_2/
+│   │   │   └── Module_Floor_2.ino
+│   │   ├── Module_Floor_3/
+│   │   │   └── Module_Floor_3.ino
+│   │   ├── NPM
+│   │   │   └── NPM.ino
 
 ```
 
 <br><br>
+
+### 사용된 하드웨어 장비
 
 | 장비명                | 사양                                                                                                                                                                                                                                                                                                                                                                     | 수량 | 비고                         |
 |:------------------:|:----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------:|:---:|:--------------------------:|
