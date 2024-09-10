@@ -15,6 +15,12 @@
 
 <br><br>
 
+### APM_v1 Mqtt 구동 영상
+
+```
+https://youtube.com/shorts/-vXDwXWd0H0?feature=share
+```
+
 ### 디렉토리 형식
 
 ```
@@ -47,3 +53,6 @@ APM_v1/
 │       └── DDDOT.ino
 
 ```
+
+### 배선도
+
