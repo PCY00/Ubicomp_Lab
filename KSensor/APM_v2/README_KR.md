@@ -154,7 +154,7 @@ APM_v2/
             <td><strong>VCC</strong></td>
           </tr>
           <tr>
-            <td>Power Supply GND & Arduino Mega 2560 GND</td>
+            <td>Power Supply GND <br> Arduino Mega 2560 GND</td>
             <td><strong>GND</strong></td>
           </tr>
           <tr>
@@ -206,7 +206,7 @@ APM_v2/
             <td><strong>Fan1, Fan2, Fan3 VCC</strong></td>
           </tr>
           <tr>
-            <td>Power Supply GND & Arduino Mega 2560 GND</td>
+            <td>Power Supply GND <br> Arduino Mega 2560 GND</td>
             <td><strong>GND</strong></td>
           </tr>
           <tr>
