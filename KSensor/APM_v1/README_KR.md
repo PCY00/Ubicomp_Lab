@@ -105,6 +105,30 @@ APM_v1/
 | Power Supply GND      | GND                 |
 | A1                    | OUT                 |
 
+<table>
+  <tr>
+    <th>Outer Table Header 1</th>
+    <th>Outer Table Header 2</th>
+  </tr>
+  <tr>
+    <td>
+      Outer Table Cell 1
+      <table>
+        <tr>
+          <th>Inner Table Header 1</th>
+          <th>Inner Table Header 2</th>
+        </tr>
+        <tr>
+          <td>Inner Table Cell 1</td>
+          <td>Inner Table Cell 2</td>
+        </tr>
+      </table>
+    </td>
+    <td>Outer Table Cell 2</td>
+  </tr>
+</table>
+
+
 
 
 
