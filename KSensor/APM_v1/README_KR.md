@@ -76,7 +76,11 @@ APM_v1/
 | Arduino Uno        | ATmega328P                                                                                                                                                                                                                                                           | 1  |                            |
 | PMS7003            | 광산란 방식                                                                                                                                                                                                                                                               | 4  | 미세먼지 센서                    |
 | 환경 센서              | <br>- CO, NO2, SO2 each 1 (AllSensing AGSM series)<br><br>- Ozone 1 (sen0321) - I2C communication<br><br>- WindSpeed 1 (sen0170) - Analog communication<br><br>- WindDirection 1 (WS5029) - Analog communication<br><br>- Temperature and Humidity (DHT22) - Digital |    | UART, I2C, Digital, Analog |
-| 구동부 센서             | 리미트, 토글, 온오프 스위치, 스테핑 NEMA17                                                                                                                                                                                                                                         |    |                            |
+| 구동부 센서             | <br>수직 초기화 리미트 스위치 3개
+<br>수평 초기화 스위치 1개
+<br>쿨러 제어 토글 스위치 1개
+<br>온오프 스위치 2개
+<br>스테핑 모터 NEMA17 6개 (토크: 4.0 3개, 6.5 3개)                                                                                                                                                                                                                                        |    |                            |
 | 기타                 |                                                                                                                                                                                                                                                                      |    |                            |
 
 
