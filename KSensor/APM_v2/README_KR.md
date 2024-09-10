@@ -253,7 +253,7 @@ APM_v2/
   <tr>
     <td>Container 1</td>
     <td>M1_P1_? <br> M1_P2_? <br> M1_P3_?</td>
-    <td rowspan="3">ACB</td>
+    <td rowspan="3">각 컨테이너의 각 모듈의 원하는 Fan 속도를 입력하면 그 Fan 속도로 Fan을 움직임 <br> (?: Fan RPM 값, Mx_Py : x는 각 컨테이너를 가리키고, y는 각 모듈을 가리킴)</td>
   </tr>
   <tr>
     <td>Container 2</td>
