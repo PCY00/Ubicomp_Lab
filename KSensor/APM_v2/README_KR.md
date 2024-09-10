@@ -22,7 +22,7 @@
   
   | 모델링 | 설치 |
   |:---:|:---:|
-  | <img src="https://github.com/user-attachments/assets/ba80964b-d8c8-4775-a51b-e386a5ecab33" width="420px" height="300px" alt="모델링"> | <img src="https://github.com/user-attachments/assets/8cf09806-a0ee-473e-bbfc-5edc33816b9d" width="420px" height="300px" alt="설치"> |
+  | <img src="https://github.com/user-attachments/assets/ba80964b-d8c8-4775-a51b-e386a5ecab33" width="470px" height="350px" alt="모델링"> | <img src="https://github.com/user-attachments/assets/8cf09806-a0ee-473e-bbfc-5edc33816b9d" width="470px" height="350px" alt="설치"> |
 </div>
 
 <br><br>
