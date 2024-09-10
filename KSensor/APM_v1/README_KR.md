@@ -69,7 +69,7 @@ APM_v1/
 | 5V                    | VCC                 |
 | GND                   | GND                 |
 | D6                    | OUT                 |
-|                       | **SEN0321 (Ozone)**     |
+|                       | **Ozone**     |
 | 5V                    | VCC                 |
 | GND                   | GND                 |
 | D20                   | SDA                 |
