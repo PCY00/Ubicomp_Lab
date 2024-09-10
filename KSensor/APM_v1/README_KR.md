@@ -71,7 +71,7 @@ APM_v1/
 
 <div style="display: flex; gap: 20px;">
   <div>
-    <table>
+    <table border="1" style="width: 100%; table-layout: auto;">
       <tr>
         <th>Arduino Mega 2560 1</th>
         <th>PM1, PM2, PM3</th>
@@ -94,7 +94,7 @@ APM_v1/
   </div>
 
   <div>
-    <table>
+    <table border="1" style="width: 100%; table-layout: auto;">
       <tr>
         <th>Arduino Mega 2560 2</th>
         <th>CO, NO2, SO2</th>
@@ -118,6 +118,7 @@ APM_v1/
     </table>
   </div>
 </div>
+
 
 
 
