@@ -1,7 +1,7 @@
 # APM_v1
 ## language selection
 
-[English](README_EN.md) | [한국어](README.md)
+[English](README.md) | [한국어](README_KR.md)
 
 <br><br>
 
