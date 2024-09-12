@@ -29,6 +29,30 @@
 
 <br><br>
 
+### Directory Structure
+
+```
+Mobility_Platform/
+├── src/
+│   ├── Control_4WD/
+│   │   └── Control_4WD.ino
+│   │
+│   ├── Directional_Mobility/
+│   │   └── Directional_Mobility.ino
+│   │
+│   ├── boost_mode_4WD/
+│   │   └── boost_mode_4WD.ino
+│   │
+│   ├── standing_tornado/
+│   │   └── standing_tornado.ino
+│   │
+│   ├── test_encoder/
+│       └── test_encoder.ino
+
+```
+
+<br><br>
+
 ## Wiring
 ![1](https://user-images.githubusercontent.com/57317636/209282573-1e2cab96-3a95-442c-893d-c2920c166bc0.png)
 
