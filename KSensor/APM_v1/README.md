@@ -43,7 +43,7 @@
 
 <br>
 
-### Directory Format
+### Directory Structure
 
 ```
 APM_v1/
