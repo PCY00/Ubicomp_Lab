@@ -31,11 +31,11 @@ sejong_headers = {
 }
 
 # 시리얼 포트 및 보드레이트 설정
-serial_port_0 = '/dev/ttyACM0'
-serial_port_1 = '/dev/ttyACM1'
-serial_port_2 = '/dev/ttyACM2'
-serial_port_3 = '/dev/ttyACM3'
-serial_port_4 = '/dev/ttyACM4'
+serial_port_0 = '/dev/ttyM1'
+serial_port_1 = '/dev/ttyM2'
+serial_port_2 = '/dev/ttyM3'
+serial_port_3 = '/dev/ttySensor'
+serial_port_4 = '/dev/ttyNPM'
 
 baudrate = 9600
 
@@ -78,6 +78,7 @@ port = 65432
 # 전역 변수 초기화
 time_s, pm_data, pm_data_a = "", "", ""
 running = True
+is_restoring_fan_state = False
 
 # 임계영역 보호를 위한 Lock 생성
 lock = Lock()
@@ -176,7 +177,7 @@ def send_sejong_data(data, url):
         print(f'Sejong problem occurred: {exc}')
 
 def process_data(data):
-    global time_s, pm_data, pm_data_a
+    global time_s, pm_data, pm_data_a, is_restoring_fan_state
 
     with lock:  # 임계영역 시작
         if data.startswith('M'):
