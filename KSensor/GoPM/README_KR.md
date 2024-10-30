@@ -30,6 +30,13 @@ GoPM/
 │   ├── Sensor/
 │   │   ├── Module/
 │   │   │   └── Module.ino
+│  
+├── HW/
+│    └── README.md  
+
 
 ```
 
+<br><br>
+
+## 
