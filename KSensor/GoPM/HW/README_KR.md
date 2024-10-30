@@ -33,6 +33,10 @@
 <br><br>
 
 ## 사진에 대한 설명
+
+- 모듈에 붙어있는 부분에 대한 사진
+- 7번과 1번 사이 홈이 있음 ( 기준은 홈으로 집아야함 )
+
   | 모듈배선 |
   |:---:|
   | <img src="https://github.com/user-attachments/assets/2c8c64b9-2896-46e6-81fb-831fb3ab206a" width="470px" height="350px" alt="모듈배선"> |
