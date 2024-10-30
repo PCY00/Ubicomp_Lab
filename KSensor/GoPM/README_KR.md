@@ -28,8 +28,7 @@ GoPM/
 │   │       └── conf.xml
 │   │   
 │   ├── Sensor/
-│   │   ├── Module/
-│   │   │   └── Module.ino
+│   │   └── Sensor.ino
 │  
 ├── HW/
 │    └── README.md  
