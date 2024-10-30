@@ -13,10 +13,6 @@
 - 미세먼지와 팬이 들어간 모듈
 - 모듈이 총 3개가 들어간 컨테이너
 
-![KakaoTalk_20241030_180803599_03](https://github.com/user-attachments/assets/05dba7e3-ae4c-4019-b996-64883652fd07)
-![KakaoTalk_20241030_180803599_02](https://github.com/user-attachments/assets/479d286e-7784-4e44-86e6-6b0261eed227)
-
-
 <br><br>
 
 ## 사진
@@ -28,6 +24,14 @@
 
   <br>
 
-  | 모듈 3개 | 모듈 배선 |
+  | 모듈 3개 | 모듈배선 |
   |:---:|:---:|
-  | <img src="https://github.com/user-attachments/assets/05dba7e3-ae4c-4019-b996-64883652fd07" width="470px" height="350px" alt="모듈 3개"> | <img src="https://github.com/user-attachments/assets/479d286e-7784-4e44-86e6-6b0261eed227" width="470px" height="350px" alt="모듈 배선"> |
+  | <img src="https://github.com/user-attachments/assets/05dba7e3-ae4c-4019-b996-64883652fd07" width="470px" height="350px" alt="모듈 3개"> | <img src="https://github.com/user-attachments/assets/479d286e-7784-4e44-86e6-6b0261eed227" width="470px" height="350px" alt="모듈배선"> |
+
+<br><br>
+
+## 사진에 대한 설명
+  | 모듈배선 |
+  |:---:|
+  | <img src="https://github.com/user-attachments/assets/2c8c64b9-2896-46e6-81fb-831fb3ab206a" width="470px" height="350px" alt="모듈배선"> |
+
