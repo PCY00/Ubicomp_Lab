@@ -1,4 +1,4 @@
-![KakaoTalk_20241030_180803599_02](https://github.com/user-attachments/assets/d60cc9fc-f40d-4907-92fb-61bb6ca46ab0)![KakaoTalk_20241030_180803599_02](https://github.com/user-attachments/assets/1d9c5ace-6aae-4df5-872f-4109d40bb19c)# HW
+# HW
 
 ## 언어 선택
 
@@ -25,3 +25,9 @@
   | 컨트롤박스 | 전원박스 |
   |:---:|:---:|
   | <img src="https://github.com/user-attachments/assets/56330ad7-43f5-4b0f-bd80-c847cda8fec0" width="470px" height="350px" alt="컨트롤박스"> | <img src="https://github.com/user-attachments/assets/7fbeb9d5-a5bd-4872-bfaa-b6e28adff76e" width="470px" height="350px" alt="전원박스"> |
+
+  <br>
+
+  | 모듈 3개 | 모듈 배선 |
+  |:---:|:---:|
+  | <img src="https://github.com/user-attachments/assets/05dba7e3-ae4c-4019-b996-64883652fd07" width="470px" height="350px" alt="모듈 3개"> | <img src="https://github.com/user-attachments/assets/479d286e-7784-4e44-86e6-6b0261eed227" width="470px" height="350px" alt="모듈 배선"> |
