@@ -17,9 +17,11 @@
 ## 젯슨나노가 꺼졌을 때 부터 기구를 작동하기 위한 간편 방법
 1. 젯슨나노를 부팅
 2. 아두이노 메가와 젯슨나노와 USB연결
-3. nCube... 디렉토리에 들어감
-4. thyme.js가 있는 폴더에서 `node thyme` 입력후 엔터
-5. 
+3. 아두이노IDE를 실행에 아두이노에 `Sensor.ino` 업로드
+4. nCube-Thyme-Nodejs 디렉토리에 들어감
+5. thyme.js가 있는 폴더에서 `node thyme` 입력후 엔터
+6. 이후 app.js가 있는 곳에서 `node app.js` 실행
+   - ex) cd nCube-Thyme-Nodejs/tas_sample/tas_ledm
 
 <br><br>
 
