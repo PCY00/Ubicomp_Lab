@@ -18,7 +18,7 @@
 1. 젯슨나노를 부팅
 2. 아두이노 메가와 젯슨나노와 USB연결
 3. nCube... 디렉토리에 들어감
-4. thyme.js가 있는 폴더에서 <node thyme> 입력후 엔터
+4. thyme.js가 있는 폴더에서 `node thyme` 입력후 엔터
 5. 
 
 <br><br>
