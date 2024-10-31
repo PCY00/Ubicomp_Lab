@@ -48,6 +48,7 @@
 ### Module Description
 
 - The modules are arranged at 120-degree angles and held by magnets for easy maintenance inside the container.
+- Measured with a tachometer, it was confirmed that the error range between the fan's RPM and the tachometer's RPM differed by about 15.
 - Inside each module, a PMS7003 sensor (with fan removed) and an installed fan are set up with a duct, allowing the fan to control air intake for the sensor.
 - Vent holes are added to the modules to ensure proper air circulation.
 
