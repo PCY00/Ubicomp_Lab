@@ -12,7 +12,7 @@
 
 - 이 기구는 잿슨나노B01 4GB 제품과 아두이노 메가 2560을 사용하며,
 - 우분투 20.04를 이용하고 nodejs 18버전을 사용중에 있음
-- [우분투 20.04 링크](https://github.com/Qengineering/Jetson-Nano-Ubuntu-20-image, "우분투 20.04 링크")
+- [우분투 20.04 링크](https://github.com/Qengineering/Jetson-Nano-Ubuntu-20-image)
 
 ## 젯슨나노가 꺼졌을 때 부터 기구를 작동하기 위한 간편 방법
 1. 젯슨나노를 부팅
