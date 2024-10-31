@@ -1,6 +1,3 @@
-
-markdown
-코드 복사
 # tas
 
 ## Language Selection
