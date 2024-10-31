@@ -60,7 +60,6 @@ function control_led(comm_num) {
 - The `conf.xml` file defines the key configurations of the system, specifying server connection details and data download options. This file is especially important for **mqtt** setup.
 
 ```
-```
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <m2m:conf xmlns:m2m="http://www.onem2m.org/xml/protocols" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
     <tas>
@@ -77,7 +76,6 @@ function control_led(comm_num) {
     </download>
 </m2m:conf>
 
-```
 ```
 
 ### XML Structure Overview
