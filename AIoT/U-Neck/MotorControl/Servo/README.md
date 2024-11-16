@@ -1,3 +1,11 @@
 # servo
 
+## 사용법
+`sudo apt-get install libi2c-dev`
+`sudo g++ servoExample.cpp JHPWMPCA9685.cpp -o main -li2c`
+
+## using PCA9685
+- https://github.com/jetsonhacks/JHPWMDriver
+- 위 깃허브가 옛날꺼라 라이브러리 수정하여 사용
+
 ## V1 : basic servo control
