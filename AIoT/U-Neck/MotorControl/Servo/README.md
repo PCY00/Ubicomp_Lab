@@ -9,3 +9,5 @@
 - 위 깃허브가 옛날꺼라 라이브러리 수정하여 사용
 
 ## V1 : basic servo control
+### 코드 심층 해석
+- https://kksp12y.tistory.com/77 
