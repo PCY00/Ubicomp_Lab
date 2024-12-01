@@ -1,5 +1,8 @@
 # Ksensor Project 
-- (Embedded SW Part)
+- Design and fabrication of instruments
+- 3D design
+- Firmware development
+- Circuit design (not PCB design, wiring)
 
 <br><br>
 
