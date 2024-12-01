@@ -25,5 +25,7 @@
 
 ## APM v2.1
 - 동작 방식
+- 
+![12](https://github.com/user-attachments/assets/fe2b64cc-4f7a-4d5a-8f41-de29c1e167a7)
 
 
