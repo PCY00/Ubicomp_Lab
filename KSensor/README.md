@@ -1,5 +1,5 @@
 # Ksensor Project 
-### My Part
+### 내 역할
 - Design and fabrication of instruments
 - 3D design
 - Firmware development
