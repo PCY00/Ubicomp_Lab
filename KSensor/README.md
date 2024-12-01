@@ -1,4 +1,5 @@
 # Ksensor Project 
+### My Part
 - Design and fabrication of instruments
 - 3D design
 - Firmware development
