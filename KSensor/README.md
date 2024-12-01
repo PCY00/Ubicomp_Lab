@@ -6,7 +6,7 @@
 ## 활동 일시
 - 2023.01. ~ 2023.12. APM v1 Design & Install
 - 2023.01. ~ 2024.08. APM v2 Design & Install
-- 2024.11. ~ ________ APM v2.1 Changing the Communication Interface ( ing.. )
+- 2024.11. ~ ________.  APM v2.1 Changing the Communication Interface ( ing.. )
 
 <br><br>
 
