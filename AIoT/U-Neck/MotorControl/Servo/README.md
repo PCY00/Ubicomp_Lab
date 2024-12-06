@@ -8,8 +8,10 @@
 - https://github.com/jetsonhacks/JHPWMDriver
 - 위 깃허브가 옛날꺼라 라이브러리 수정하여 사용
 
-## V1 : basic servo control
+## V1.0 : basic servo control
 ### 코드 심층 해석
 - https://kksp12y.tistory.com/77
 
 ## V1.1 : 2 servo control
+
+## V2.0 : 2 servo cpntrol with mpu6050
