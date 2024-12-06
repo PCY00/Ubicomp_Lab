@@ -43,11 +43,16 @@ void readRegister(uint8_t reg, uint8_t* buffer, size_t length) {
 }
 
 // IMU 데이터 읽기
-void readIMUData(int16_t* acc) {
+void readIMUData(int16_t* acc, int16_t* gyro) {
     uint8_t buffer[6];
     readRegister(0x3B, buffer, 6); // Accelerometer data
     for (int i = 0; i < 3; ++i) {
         acc[i] = (buffer[i * 2] << 8) | buffer[i * 2 + 1];
+    }
+
+    readRegister(0x43, buffer, 6); // Gyroscope data
+    for (int i = 0; i < 3; ++i) {
+        gyro[i] = (buffer[i * 2] << 8) | buffer[i * 2 + 1];
     }
 }
 
@@ -55,6 +60,42 @@ void readIMUData(int16_t* acc) {
 void calculateAngles(int16_t* acc, float* roll, float* pitch) {
     *roll = atan2(acc[1], acc[2]) * 180.0 / M_PI;
     *pitch = atan2(-acc[0], sqrt(acc[1] * acc[1] + acc[2] * acc[2])) * 180.0 / M_PI;
+}
+
+// 칼만 필터 구조체
+typedef struct {
+    float angle;       // 추정된 각도 (롤 또는 피치)
+    float rate;        // 각속도 (자이로에서 읽은 값)
+    float P;           // 오차 공분산
+    float K;           // 칼만 이득
+    float Q;           // 프로세스 잡음
+    float R;           // 측정 잡음
+} KalmanFilter;
+
+// 칼만 필터 초기화
+void KalmanFilter_Init(KalmanFilter* kf, float Q, float R) {
+    kf->angle = 0.0f;
+    kf->rate = 0.0f;
+    kf->P = 1.0f;  // 초기 오차 공분산
+    kf->Q = Q;
+    kf->R = R;
+}
+
+// 칼만 필터 업데이트
+float KalmanFilter_Update(KalmanFilter* kf, float newAngle, float newRate, float dt) {
+    // 예측 단계
+    kf->angle += dt * kf->rate;  // 각속도를 바탕으로 각도 예측
+    kf->P += kf->Q;
+
+    // 갱신 단계
+    kf->K = kf->P / (kf->P + kf->R);  // 칼만 이득 계산
+    kf->angle += kf->K * (newAngle - kf->angle);  // 각도 보정
+    kf->P = (1 - kf->K) * kf->P;  // 오차 공분산 갱신
+
+    // 각속도 업데이트 (자이로스코프에서 얻은 각속도를 사용)
+    kf->rate = newRate;
+
+    return kf->angle;
 }
 
 // 각도 -> PWM 변환
@@ -80,22 +121,34 @@ int main() {
     writeRegister(0x1B, 0x00); // Gyro config
     writeRegister(0x1C, 0x00); // Accel config
 
+    // 칼만 필터 초기화
+    KalmanFilter rollFilter, pitchFilter;
+    KalmanFilter_Init(&rollFilter, 0.001f, 0.03f); // 프로세스 잡음, 측정 잡음 설정
+    KalmanFilter_Init(&pitchFilter, 0.001f, 0.03f);
+
     // 초기값 설정
     float roll_neutral = SERVO_NEUTRAL;  // 기본 Roll 각도 (90도)
     float pitch_neutral = SERVO_NEUTRAL; // 기본 Pitch 각도 (90도)
 
     while (1) {
         // IMU 데이터 읽기
-        int16_t acc[3];
-        readIMUData(acc);
+        int16_t acc[3], gyro[3];
+        readIMUData(acc, gyro); // 가속도계 및 자이로스코프 데이터
 
-        // Roll, Pitch 계산
-        float roll, pitch;
-        calculateAngles(acc, &roll, &pitch);
+        // 가속도계와 자이로스코프 데이터를 사용하여 롤, 피치 각도 계산
+        float roll_acc = atan2(acc[1], acc[2]) * 180.0 / M_PI;
+        float pitch_acc = atan2(-acc[0], sqrt(acc[1] * acc[1] + acc[2] * acc[2])) * 180.0 / M_PI;
+        
+        float roll_rate = gyro[0] / 131.0;  // 자이로스코프 각속도 (MPU6050의 131.0으로 나눔)
+        float pitch_rate = gyro[1] / 131.0;
+
+        // 칼만 필터로 각도 추정
+        float roll = KalmanFilter_Update(&rollFilter, roll_acc, roll_rate, 0.01);
+        float pitch = KalmanFilter_Update(&pitchFilter, pitch_acc, pitch_rate, 0.01);
 
         // 변화량 계산 (ΔRoll, ΔPitch)
-        float delta_roll = roll;   // 초기값이 0도이므로 변화량은 Roll 자체
-        float delta_pitch = pitch; // 초기값이 0도이므로 변화량은 Pitch 자체
+        float delta_roll = roll;   
+        float delta_pitch = pitch; 
 
         // Roll, Pitch에 따른 PWM 값 계산
         int roll_pwm = angleToPWM(roll_neutral - delta_roll);
