@@ -16,3 +16,7 @@
 
 ## V2.0 : 2 servo cpntrol with mpu6050
 - `sudo g++ 2_servo_with_mpu6050.cpp JHPWMPCA9685.cpp -o main -li2c -lrt`
+
+
+## V2.1 : 2 servo cpntrol with mpu6050, 칼만필터
+- `sudo g++ 2_servo_with_mpu6050.cpp JHPWMPCA9685.cpp -o main -li2c -lrt`
