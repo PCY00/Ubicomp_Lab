@@ -15,3 +15,4 @@
 ## V1.1 : 2 servo control
 
 ## V2.0 : 2 servo cpntrol with mpu6050
+- `sudo g++ 2_servo_with_mpu6050.cpp JHPWMPCA9685.cpp -o main -li2c -lrt`
