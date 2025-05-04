@@ -1,4 +1,4 @@
-# Ubicomp_Lab ( 2022.06. ~ present )
+# Ubicomp_Lab ( 2022.06. ~ 2025.02 )
 
 
 
